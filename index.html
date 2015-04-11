@@ -13,16 +13,12 @@
   <body>
 
 <header>
-<a href="../">Back to compsys-tools (demo machine)</a> ----- 
-<a href="http://www.ens-lyon.fr/LIP/COMPSYS/tools/">Back to Compsys Homepage</a>
-</br>
-
 <h1>TERMITE - Termination  analyser</h1>
 <img src="logo_VERIMAG_vectorise.svg" alt="VERIMAG logo"
-	class="logo"/> 
+	class="logo"/>
 
 <img src="logo_lip.png" alt="LIP logo"
-	class="logo"/> 
+	class="logo"/>
 
 </header>
 
@@ -34,7 +30,7 @@
 <li>Termite's algorithm was presented in  "Synthesis of ranking
   functions using extremal counterexamples", <a href="http://conf.researchr.org/home/pldi2015">PLDI'15</a></li>
 <li>The author version of the paper
-  is <a href="SMT_terminate_PLDI2015_authorversion.pdf">here</a>.</li>
+  is <a href="SMT_terminate_PLDI2015.pdf">here</a>.</li>
 <li><a href="termite.bib">Bibtex file</a></li>
 <li>Coming soon : our video presentation for PLDI.</li>
 </ul>
@@ -43,13 +39,13 @@
 <h3>Source code/ Experimental results</h3>
 <ul>
 <img src="termite_tool.png" alt="Termite tool"
-	class="toolchain"/> 
+	class="toolchain"/>
 <li>The invariant generator we use is <a href="http://pagai.forge.imag.fr">Pagai</a></li>
-<li>Termite is based on many open source components, here are some:
+<li>Termite is based on many open source components available <a href="https://github.com/termite-analyser">on github</a>:
 <ul>
-<li>An overlay for ocaml-z3 that enables optimation over SMT: <a href=https://github.com/Drup/ocaml-z3>github/ocamlz3-over</a></li>
+<li>An overlay for the ocaml z3 bindings that enables type-safe creation of SMT formulas: <a href="https://github.com/termite-analyser/z3overlay">z3overlay</a></li>
 <li>LLVM2SMT provides an SMT-encoding of the llvm-ir
-  graph: <a href=">https://github.com/Drup/llvm2smt>github/llvm2smt">github/llvm2smt</a></li>
+  graph: <a href="https://github.com/termite-analyser/llvm2smt">llvm2smt</a></li>
 </ul>
 <br/>
 <li> <a href="results/results.html">Comparaison with other

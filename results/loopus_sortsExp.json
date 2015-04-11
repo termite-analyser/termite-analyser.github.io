@@ -1,0 +1,11 @@
+<!--This file was generated with the command : loopus -zPrintRankingFunction -zSaveFunctionResultsInJSONTo="..." file.bc -->
+
+{"sourcefile": "sorts_experiments_insertsort.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 2}}
+{"sourcefile": "sorts_experiments_realbubble.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 1, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 2}}
+{"sourcefile": "sorts_experiments_realheapsort.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 2}}
+{"sourcefile": "sorts_experiments_realheapsort.29.bc", "function": "main", "nobound": true, "norf": true, "time": 1000, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 6}}
+{"sourcefile": "sorts_experiments_realselect.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 1}}
+{"sourcefile": "sorts_experiments_realshellsort.29.bc", "function": "main", "nobound": true, "norf": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 2}}
+{"sourcefile": "sorts_experiments_sipmamergesort.29.bc", "function": "main", "nobound": true, "norf": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 16}}
+{"sourcefile": "sorts_experiments_sipmamergesort.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 1}}
+{"total_time": "335", "url": "http://compsys-tools.ens-lyon.fr/wtc/"}

@@ -1,0 +1,254 @@
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="compsys-tools.css" />
+    <title>Compsys Tools - Termite</title>
+    <meta name="Author" content="Gonnord, Radanne, Monniaux, Vincenti">
+    <meta name="description" content="termite">
+    <meta name="keywords" content="pldi,termite,rank">
+  </head>
+
+  <body>
+
+
+<a href="http://compsys-tools.ens-lyon.fr/termite/">Back to Termite's home</a>
+
+
+<h1>PLDI'15 demo for Termite</h1>
+
+<h3>Results</h3>
+Config : Linux sorlin 3.13.0-45-generic #74-Ubuntu SMP Tue Jan 13 19:36:28 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+<P>
+Date : vendredi 13 février 2015, 19:39:50 (UTC+0100)
+<P>
+
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=1>
+		<THEAD>
+			<TR>
+				<TH></TH>
+				<TH colspan="6"><a href=http://forsyte.at/software/loopus/>Loopus</a></TH>
+			</TR>
+			<TR>
+				<TH ALIGN=center NOWRAP>Name</TH>
+				<TH ALIGN=center NOWRAP>Logs</TH>
+				<TH ALIGN=center NOWRAP>Files</TH>
+				<TH ALIGN=center NOWRAP>Terminate</TH>
+				<TH ALIGN=center NOWRAP>Don't know</TH>
+				<TH ALIGN=center NOWRAP>Time</TH>
+				<TH ALIGN=center NOWRAP>Rate</TH>
+			</TR>
+		</THEAD>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://web.cse.ohio-state.edu/~pouchet/software/polybench/">polybench</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="loopus_polybench.json">loopus_polybench.json</A></TD>
+			<TD ALIGN=center NOWRAP>30</TD>
+			<TD ALIGN=center NOWRAP>30</TD>
+			<TD ALIGN=center NOWRAP>0</TD>
+			<TD ALIGN=center NOWRAP>28 ms</TD>
+			<TD ALIGN=center NOWRAP>100%</TD>
+		</TR>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://compsys-tools.ens-lyon.fr/wtc/">sortsExp</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="loopus_sortsExp.json">loopus_sortsExp.json</A></TD>
+			<TD ALIGN=center NOWRAP>6</TD>
+			<TD ALIGN=center NOWRAP>3</TD>
+			<TD ALIGN=center NOWRAP>3</TD>
+			<TD ALIGN=center NOWRAP>55 ms</TD>
+			<TD ALIGN=center NOWRAP>50%</TD>
+		</TR>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://sv-comp.sosy-lab.org/2015/benchmarks.php">termcomp</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="loopus_termcomp.json">loopus_termcomp.json</A></TD>
+			<TD ALIGN=center NOWRAP>129</TD>
+			<TD ALIGN=center NOWRAP>78</TD>
+			<TD ALIGN=center NOWRAP>51</TD>
+			<TD ALIGN=center NOWRAP>16 ms</TD>
+			<TD ALIGN=center NOWRAP>60%</TD>
+		</TR>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://compsys-tools.ens-lyon.fr/wtc/index.html#htoc3">wtc</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="loopus_wtc.json">loopus_wtc.json</A></TD>
+			<TD ALIGN=center NOWRAP>7</TD>
+			<TD ALIGN=center NOWRAP>4</TD>
+			<TD ALIGN=center NOWRAP>3</TD>
+			<TD ALIGN=center NOWRAP>227 ms</TD>
+			<TD ALIGN=center NOWRAP>57%</TD>
+		</TR>
+</TABLE>
+		</BR>
+		<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=1>
+		<THEAD>
+			<TR>
+				<TH></TH>
+				<TH colspan="8">Termite</TH>
+			</TR>
+			<TR>
+				<TH ALIGN=center NOWRAP>Name</TH>
+				<TH ALIGN=center NOWRAP>Logs</TH>
+				<TH ALIGN=center NOWRAP>Files</TH>
+				<TH ALIGN=center NOWRAP>Terminate</TH>
+				<TH ALIGN=center NOWRAP>Don't know</TH>
+				<TH ALIGN=center NOWRAP>Errors</TH>
+				<TH ALIGN=center NOWRAP>LP</TH>
+				<TH ALIGN=center NOWRAP>Time</TH>
+				<TH ALIGN=center NOWRAP>Rate</TH>
+			</TR>
+		</THEAD>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://web.cse.ohio-state.edu/~pouchet/software/polybench/">polybench</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="termite_polybench.json">termite_polybench.json</A></TD>
+			<TD ALIGN=center NOWRAP>30</TD>
+			<TD ALIGN=center NOWRAP>21</TD>
+			<TD ALIGN=center NOWRAP>9</TD>
+			<TD ALIGN=center NOWRAP>0</TD>
+			<TD ALIGN=center NOWRAP>(10, 3)</TD>
+			<TD ALIGN=center NOWRAP>71 ms</TD>
+			<TD ALIGN=center NOWRAP>70%</TD>
+		</TR>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://compsys-tools.ens-lyon.fr/wtc/">sortsExp</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="termite_sortsExp.json">termite_sortsExp.json</A></TD>
+			<TD ALIGN=center NOWRAP>6</TD>
+			<TD ALIGN=center NOWRAP>5</TD>
+			<TD ALIGN=center NOWRAP>1</TD>
+			<TD ALIGN=center NOWRAP>0</TD>
+			<TD ALIGN=center NOWRAP>(15, 4)</TD>
+			<TD ALIGN=center NOWRAP>85 ms</TD>
+			<TD ALIGN=center NOWRAP>83%</TD>
+		</TR>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://sv-comp.sosy-lab.org/2015/benchmarks.php">termcomp</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="termite_termcomp.json">termite_termcomp.json</A></TD>
+			<TD ALIGN=center NOWRAP>134</TD>
+			<TD ALIGN=center NOWRAP>118</TD>
+			<TD ALIGN=center NOWRAP>12</TD>
+			<TD ALIGN=center NOWRAP>4</TD>
+			<TD ALIGN=center NOWRAP>(2, 1)</TD>
+			<TD ALIGN=center NOWRAP>9 ms</TD>
+			<TD ALIGN=center NOWRAP>88%</TD>
+		</TR>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://compsys-tools.ens-lyon.fr/wtc/index.html#htoc3">wtc</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="termite_wtc.json">termite_wtc.json</A></TD>
+			<TD ALIGN=center NOWRAP>65</TD>
+			<TD ALIGN=center NOWRAP>46</TD>
+			<TD ALIGN=center NOWRAP>12</TD>
+			<TD ALIGN=center NOWRAP>7</TD>
+			<TD ALIGN=center NOWRAP>(4, 2)</TD>
+			<TD ALIGN=center NOWRAP>15 ms</TD>
+			<TD ALIGN=center NOWRAP>70%</TD>
+		</TR>
+</TABLE>
+		</BR>
+		<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=1>
+		<THEAD>
+			<TR>
+				<TH></TH>
+				<TH colspan="8"><a href=http://compsys-tools.ens-lyon.fr/rank/index.php>Rank</a></TH>
+			</TR>
+			<TR>
+				<TH ALIGN=center NOWRAP>Name</TH>
+				<TH ALIGN=center NOWRAP>Logs</TH>
+				<TH ALIGN=center NOWRAP>Files</TH>
+				<TH ALIGN=center NOWRAP>Terminate</TH>
+				<TH ALIGN=center NOWRAP>Don't know</TH>
+				<TH ALIGN=center NOWRAP>Errors</TH>
+				<TH ALIGN=center NOWRAP>LP</TH>
+				<TH ALIGN=center NOWRAP>Time</TH>
+				<TH ALIGN=center NOWRAP>Rate</TH>
+			</TR>
+		</THEAD>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://compsys-tools.ens-lyon.fr/wtc/index.html#htoc3">wtc</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="rank_wtc.json">rank_wtc.json</A></TD>
+			<TD ALIGN=center NOWRAP>44</TD>
+			<TD ALIGN=center NOWRAP>32</TD>
+			<TD ALIGN=center NOWRAP>10</TD>
+			<TD ALIGN=center NOWRAP>2</TD>
+			<TD ALIGN=center NOWRAP>(513, 204)</TD>
+			<TD ALIGN=center NOWRAP>52 ms</TD>
+			<TD ALIGN=center NOWRAP>72%</TD>
+		</TR>
+</TABLE>
+		</BR>
+		<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=1>
+		<THEAD>
+			<TR>
+				<TH></TH>
+				<TH colspan="6"><a href=http://aprove.informatik.rwth-aachen.de/>Aprove</a></TH>
+			</TR>
+			<TR>
+				<TH ALIGN=center NOWRAP>Name</TH>
+				<TH ALIGN=center NOWRAP>Logs</TH>
+				<TH ALIGN=center NOWRAP>Files</TH>
+				<TH ALIGN=center NOWRAP>Terminate</TH>
+				<TH ALIGN=center NOWRAP>Don't know</TH>
+				<TH ALIGN=center NOWRAP>Time</TH>
+				<TH ALIGN=center NOWRAP>Rate</TH>
+			</TR>
+		</THEAD>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://web.cse.ohio-state.edu/~pouchet/software/polybench/">polybench</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="aprove_polybench.json">aprove_polybench.json</A></TD>
+			<TD ALIGN=center NOWRAP>30</TD>
+			<TD ALIGN=center NOWRAP>0</TD>
+			<TD ALIGN=center NOWRAP>30</TD>
+			<TD ALIGN=center NOWRAP>1364 ms</TD>
+			<TD ALIGN=center NOWRAP>0%</TD>
+		</TR>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://compsys-tools.ens-lyon.fr/wtc/">sortsExp</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="aprove_sortsExp.json">aprove_sortsExp.json</A></TD>
+			<TD ALIGN=center NOWRAP>6</TD>
+			<TD ALIGN=center NOWRAP>0</TD>
+			<TD ALIGN=center NOWRAP>6</TD>
+			<TD ALIGN=center NOWRAP>9431 ms</TD>
+			<TD ALIGN=center NOWRAP>0%</TD>
+		</TR>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://sv-comp.sosy-lab.org/2015/benchmarks.php">termcomp</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="aprove_termcomp.json">aprove_termcomp.json</A></TD>
+			<TD ALIGN=center NOWRAP>135</TD>
+			<TD ALIGN=center NOWRAP>108</TD>
+			<TD ALIGN=center NOWRAP>27</TD>
+			<TD ALIGN=center NOWRAP>9889 ms</TD>
+			<TD ALIGN=center NOWRAP>80%</TD>
+		</TR>
+<TR>
+			<TD ALIGN=center NOWRAP><A HREF="http://compsys-tools.ens-lyon.fr/wtc/index.html#htoc3">wtc</A></TD>
+			<TD ALIGN=center NOWRAP><A HREF="aprove_wtc.json">aprove_wtc.json</A></TD>
+			<TD ALIGN=center NOWRAP>65</TD>
+			<TD ALIGN=center NOWRAP>27</TD>
+			<TD ALIGN=center NOWRAP>38</TD>
+			<TD ALIGN=center NOWRAP>7322 ms</TD>
+			<TD ALIGN=center NOWRAP>41%</TD>
+		</TR>
+</TABLE>
+
+
+<h3>Useful information</h3>
+<ul>
+<li>Column "Files" : number of files of the given benchmark for which
+  an intermediate representation is generated by the front-end.</li>
+<li>Columns "Time" average wall time per analysed file.</li>
+<li>(Rank and Termite) Columns "LP" : average size (lines, columns) of
+  the Linear Programming instances. </li>
+<li>C2FSM (Rank's frontend) is not robust enough to parse other
+  benchmarks than WTC. </li>
+<li><a href="http://research.microsoft.com/en-us/downloads/925bf669-1608-44dd-b16b-8e79e38ba743/">T2</a> is not part of the comparison since the C-front-end is not yet maintained.</li>
+<li>We did not manage to launch <a href="">TAN</a>, we got many errors
+  while processing C-files and the tool is not documented.
+</ul>
+
+<h3>Authors</h3>
+
+<ul>
+<li>Laure Gonnord</li>
+<li>David Monniaux</li>
+<li>Gabriel Radanne</li>
+<li> Marc Vincenti</li>
+</ul>
+
+
+</body>
+</html>

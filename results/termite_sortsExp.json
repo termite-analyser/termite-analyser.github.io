@@ -1,0 +1,8 @@
+<!--This file was generated with the command : termite file.bc -->
+{"file": "sorts_experiments/insertsort.pagai.bc", "nb_strict_func": "1", "nb_no_func": "0", "nb_lines": "5", "nb_columns": "2", "time": "0.018875"}
+{"file": "sorts_experiments/realbubble.pagai.bc", "nb_strict_func": "1", "nb_no_func": "0", "nb_lines": "5", "nb_columns": "3", "time": "0.021178"}
+{"file": "sorts_experiments/realheapsort.pagai.bc", "nb_strict_func": "1", "nb_no_func": "0", "nb_lines": "14", "nb_columns": "4", "time": "0.061569"}
+{"file": "sorts_experiments/realselect.pagai.bc", "nb_strict_func": "1", "nb_no_func": "0", "nb_lines": "6", "nb_columns": "1", "time": "0.018970"}
+{"file": "sorts_experiments/realshellsort.pagai.bc", "nb_strict_func": "0", "nb_no_func": "1", "nb_lines": "10", "nb_columns": "4", "time": "0.042312"}
+{"file": "sorts_experiments/sipmamergesort.pagai.bc", "nb_strict_func": "1", "nb_no_func": "0", "nb_lines": "45", "nb_columns": "7", "time": "0.348197"}
+{"total_time": "984", "url": "http://compsys-tools.ens-lyon.fr/wtc/"}

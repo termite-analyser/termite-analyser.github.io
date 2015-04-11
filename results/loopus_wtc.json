@@ -1,0 +1,12 @@
+<!--This file was generated with the command : loopus -zPrintRankingFunction -zSaveFunctionResultsInJSONTo="..." file.bc -->
+
+{"sourcefile": "wtc_ax.29.bc", "function": "main", "nobound": true, "norf": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 1}}
+{"sourcefile": "wtc_easy1.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 1}}
+{"sourcefile": "wtc_nd_loop.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 1}}
+{"sourcefile": "wtc_real2.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 1}}
+{"sourcefile": "wtc_relation1.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 1}}
+{"sourcefile": "wtc_sipmamergesort2.29.bc", "function": "main", "nobound": true, "norf": true, "time": 1000, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 64}}
+{"sourcefile": "wtc_sipmamergesort2.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 1}}
+{"sourcefile": "wtc_sipmamergesort.29.bc", "function": "main", "nobound": true, "norf": true, "time": 1000, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 16}}
+{"sourcefile": "wtc_sipmamergesort.29.bc", "function": "main", "nobound": true, "time": 0, "statistics": {"isDependent": 0, "nrOfInvariants": 0, "numberOfPathsAfterSlicing": 1}}
+{"total_time": "1594", "url": "http://compsys-tools.ens-lyon.fr/wtc/index.html#htoc3"}

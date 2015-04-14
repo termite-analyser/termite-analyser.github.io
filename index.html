@@ -1,9 +1,8 @@
 
 <html>
- <head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="compsys-tools.css" />
-    <title>Compsys Tools - Termite</title>
+    <title>Termite - Termination analyser</title>
     <meta name="Author" content="Laure Gonnord">
     <meta name="description" content="termite">
     <meta name="keywords" content="pldi,termite,rank">
@@ -12,59 +11,62 @@
 
   <body>
 
-<header>
-<h1>TERMITE - Termination  analyser</h1>
-<img src="logo_VERIMAG_vectorise.svg" alt="VERIMAG logo"
-	class="logo"/>
+    <header>
+      <h1>Termite - Termination analyser</h1>
+      <img src="logo_VERIMAG_vectorise.svg" alt="VERIMAG logo"
+	         class="logo"/>
 
-<img src="logo_lip.png" alt="LIP logo"
-	class="logo"/>
+      <img src="logo_lip.png" alt="LIP logo"
+	         class="logo"/>
 
-</header>
-
-
-
-<h3>Research paper</h3>
-
-<ul>
-<li>Termite's algorithm was presented in  "Synthesis of ranking
-  functions using extremal counterexamples", <a href="http://conf.researchr.org/home/pldi2015">PLDI'15</a></li>
-<li>The author version of the paper
-  is <a href="SMT_terminate_PLDI2015.pdf">here</a>.</li>
-<li><a href="termite.bib">Bibtex file</a></li>
-<li>Coming soon : our video presentation for PLDI.</li>
-</ul>
+    </header>
 
 
-<h3>Source code/ Experimental results</h3>
-<ul>
-<img src="termite_tool.png" alt="Termite tool"
-	class="toolchain"/>
-<li>The invariant generator we use is <a href="http://pagai.forge.imag.fr">Pagai</a></li>
-<li>Termite is based on many open source components available <a href="https://github.com/termite-analyser">on github</a>:
-<ul>
-<li>An overlay for the ocaml z3 bindings that enables type-safe creation of SMT formulas: <a href="https://github.com/termite-analyser/z3overlay">z3overlay</a></li>
-<li>LLVM2SMT provides an SMT-encoding of the llvm-ir
-  graph: <a href="https://github.com/termite-analyser/llvm2smt">llvm2smt</a></li>
-</ul>
-<br/>
-<li> <a href="results/results.html">Comparaison with other
-    termination tools</a> on Ubuntu 64bits </li>
-</ul>
+
+    <h3>Research paper</h3>
+
+    <ul>
+      <li>Termite's algorithm was presented in  "Synthesis of ranking
+        functions using extremal counterexamples", <a href="http://conf.researchr.org/home/pldi2015">PLDI'15</a></li>
+      <li>The author version of the paper
+        is <a href="SMT_terminate_PLDI2015.pdf">here</a>.</li>
+      <li><a href="termite.bib">Bibtex file</a></li>
+      <li>Coming soon : our video presentation for PLDI.</li>
+    </ul>
 
 
-<h3>Authors</h3>
-<ul>
-<li>Laure Gonnord</li>
-<li>David Monniaux</li>
-<li>Gabriel Radanne</li>
-</ul>
+    <h3>Source code/ Experimental results</h3>
+    <ul>
+      <img src="termite_tool.png" alt="Termite tool"
+	         class="toolchain"/>
+      <li>The invariant generator we use is <a href="http://pagai.forge.imag.fr">Pagai</a></li>
+      <li>Termite is based on many open source components available <a href="https://github.com/termite-analyser">on github</a>:
+        <ul>
+          <li>An overlay for the ocaml z3 bindings that enables type-safe creation of SMT formulas: <a href="https://github.com/termite-analyser/z3overlay">z3overlay</a></li>
+          <li>LLVM2SMT provides an SMT-encoding of the llvm-ir
+            graph: <a href="https://github.com/termite-analyser/llvm2smt">llvm2smt</a></li>
+          <li><a href="https://github.com/termite-analyser/termite">termite</a> itself.
+        </ul>
+        <br/>
 
-<h3>Credits</h3>
-<ul>
-<li> Marc Vincenti, for the scripts </li>
-<li> Julien Henry, for the css file </li>
-</ul>
+      <li>Instalation instructions using opam are available <a href="https://github.com/termite-analyser/opam-termite#opam-repository-for-termite-packages">here</a>.</li>
+      <li> <a href="results/results.html">Comparaison with other
+          termination tools</a> on Ubuntu 64bits </li>
+    </ul>
 
-</body>
+
+    <h3>Authors</h3>
+    <ul>
+      <li>Laure Gonnord</li>
+      <li>David Monniaux</li>
+      <li>Gabriel Radanne</li>
+    </ul>
+
+    <h3>Credits</h3>
+    <ul>
+      <li> Marc Vincenti, for the scripts </li>
+      <li> Julien Henry, for the css file </li>
+    </ul>
+
+  </body>
 </html>
